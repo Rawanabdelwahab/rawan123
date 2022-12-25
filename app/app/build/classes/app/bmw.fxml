@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <children>
+      <CheckBox layoutY="116.0" mnemonicParsing="false" prefHeight="116.0" prefWidth="488.0" text="BMW I8 2021   price: 2,750,000 EGP">
+         <graphic>
+            <ImageView fitHeight="85.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/i8-2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutX="14.0" layoutY="232.0" mnemonicParsing="false" prefHeight="116.0" prefWidth="454.0" text="BMW 740 2020  Price2,600,000 EGP">
+         <graphic>
+            <ImageView fitHeight="86.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/740-2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox mnemonicParsing="false" prefHeight="116.0" prefWidth="518.0" text="BMW Z4 2020   Price: 1,195,000  EGP">
+         <graphic>
+            <ImageView fitHeight="98.0" fitWidth="158.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/z4-2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <Button layoutX="481.0" layoutY="494.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="93.0" text="Reservation" />
+      <CheckBox layoutY="337.0" mnemonicParsing="false" prefHeight="116.0" prefWidth="518.0" text="BMW 730 2021  Price: 1,195,000  EGP">
+         <graphic>
+            <ImageView fitHeight="98.0" fitWidth="158.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/730-2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+   </children>
+</AnchorPane>

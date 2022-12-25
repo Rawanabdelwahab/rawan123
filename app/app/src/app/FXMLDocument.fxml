@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <children>
+      <GridPane prefHeight="400.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#as" prefHeight="118.0" prefWidth="192.0" text="polman">
+               <graphic>
+                  <ImageView fitHeight="82.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/th%20(6).jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#zx" prefHeight="118.0" prefWidth="192.0" text="SYM" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fitHeight="96.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/th%20(2).jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#qw" prefHeight="118.0" prefWidth="192.0" text="Audi" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fitHeight="101.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/audi-logo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#cv" prefHeight="118.0" prefWidth="192.0" text="TOYOTA" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/th%20(7).jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#bn" prefHeight="118.0" prefWidth="192.0" text="Mercedes" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fitHeight="89.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/th%20(5).jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#er" prefHeight="118.0" prefWidth="192.0" text="BMW" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fitHeight="95.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/bmw-logo.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#op" prefHeight="118.0" prefWidth="192.0" text="JMC" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="99.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/th%20(3).jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#gh" prefHeight="118.0" prefWidth="192.0" text="Dayun" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="95.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/OIP.jfif" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#jk" prefHeight="118.0" prefWidth="192.0" text="Jeep" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="95.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../photo/jeep-logo.png" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

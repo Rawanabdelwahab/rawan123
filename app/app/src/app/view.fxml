@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <left>
+      <VBox fx:id="ap" prefHeight="381.0" prefWidth="100.0" style="-fx-background-color: #001824;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false"  prefHeight="56.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="add" textFill="#fcfafa">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false"  prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" textFill="#fcfafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false"  prefHeight="70.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" textFill="#fcfafa">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false"  prefHeight="73.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="view" textFill="#fcfafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false"  prefHeight="71.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" textFill="#fcfafa">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false"  prefHeight="72.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" textFill="#fcfafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="ap" prefHeight="388.0" prefWidth="500.0" style="-fx-background-color: #142428;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#8d8f3b" layoutX="48.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sell my motorcycle is the place to sell used motorcycles. If you are looking for fast cash and an easy way to sell your motorcycle, look no further. We provide an easy, simple, and stress-free way to sell your used motorcycle. We buy Used 2 wheel cycles, motorcycles, sportbikes, off-road, motocross, street bikes, cruisers, street rods, choppers, trikes, &amp; scooters. " wrappingWidth="216.5367431640625">
+               <font>
+                  <Font name="Blackadder ITC" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#8d8f3b" layoutX="190.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling your car through TrueCar’s platform means you can get an instant True Cash Offer from one of our thousands of Certified Dealers without having to advertise your car, meet up with strangers, or deal with paperwork on your own." wrappingWidth="232.53668212890625">
+               <font>
+                  <Font name="Blackadder ITC" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

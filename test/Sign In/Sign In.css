@@ -1,0 +1,114 @@
+body{
+
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    .leftside ,.rightside{
+        height: 500px;
+        width: 100%;
+    }
+    .rightside{
+      background-color: white;
+    }
+    .leftside{
+        background-color: white;
+    }
+    @media screen and (min-width:768px)   
+   {
+   .leftside,.rightside{
+       height: 79vh;
+   }
+   
+}
+.container{
+    max-width: 800px;
+    border-top: 1px solid #ddd;
+    padding: 10px !important;
+    margin: auto;
+}
+.td{
+    position: relative;
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    color: black;
+}
+.or,.td{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    color: #666;
+    font-size: 1.2em;
+    z-index: 2;
+    text-align: center;
+}
+
+ h1{
+    background-color: gainsboro;
+    border: 15px solid gainsboro;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    background-color: white;
+    border: 20px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+
+    
+    .login-box{
+        width: 370px;
+        height: 400px;
+        margin: auto;
+        background-color: gainsboro;
+        border-radius: 5px;
+    }
+    
+    h6{
+        margin-left: 450px;
+    }
+    
+    
+    form{
+        width: 300px;
+        margin-left: 25px;
+    }
+    form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    form input{
+        width: 300px;
+        padding: 8px;
+        border: none;
+        border: 1px solid grey;
+        border-radius: 5px;
+        outline: none;
+    }
+    form input[type="submit"]{
+        width: 300px;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 1px;  
+        background-color: rgba(53, 168, 8, 0.726);
+        text-decoration-color: white;
+        font-size: 20px;
+    }
+    form p2{
+      margin-left: 165px;
+    }
+    p{
+        text-align: left;
+        padding-top: 20px;
+        font-size: 15px;
+        color: black;
+        margin-top: -40px;
+    }
+    

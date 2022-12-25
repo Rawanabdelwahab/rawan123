@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <children>
+      <CheckBox mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="SYM ORBIT 2 2022  Price: 30,800 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_2c1159a5ed81028c95dc07722160a3f3.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="281.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="SYM Jet 4 2021  Price: 27,223 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/thumbnail-up_e2e49a9ac6d06c8f0ff452c03b9a9263.jpg" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="174.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="SYM Fidel 2 2021  Price: 23,470 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/thumbnail-up_7fa2e2a1eb2124685b9067e3fb80fda8.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="87.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="SYM ORBIT 2 2021  Price: 21,280 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_dd34e6a0f07b98aa09bb0d7dac81ceae.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <Button layoutX="472.0" layoutY="415.0" mnemonicParsing="false" text="reservation" />
+   </children>
+</AnchorPane>

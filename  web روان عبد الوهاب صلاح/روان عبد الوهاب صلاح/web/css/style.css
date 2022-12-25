@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    background-color: #f3f3f3;
+}
+.clear{
+    clear: both;
+}
+.header{
+    background-color: #3b5998;
+    height: 85px;
+    width: 100%;
+    overflow: hidden;
+}
+.container .label{
+    width: 50%;
+    float: left;
+    color: #fff;
+
+}
+.container .login{
+    width: 45%;
+    float: right;
+    color: #fff;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    }
+    .container .label h1{
+        font-size: 44px;
+        padding-left: 5px;
+    }
+    .container .login .email{
+        float: left;
+        width: 34%;
+        padding-top: 15px;
+        
+    } 
+    .container .login .pass{
+        float: left;
+        padding-top: 15px;
+        
+     }
+    input[type='submit']{
+        margin-top: 38px;
+        margin-left: 10px;
+        background-color: #1f1fa7;
+        border: none;
+        color: #fff;
+        padding: 3px 7px;
+        font-weight: bold;
+    }
+    input[type='submit']:hover{
+        background-color: #4444d4;
+    }
+    input[type='text'], input[type='password']{
+        margin-top: 5px;
+    }
+    .content{
+        float: left;
+        width: 50%;
+        padding-left: 200px;
+        color: #063865;
+    }
+    .content h3{
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    .signup input:nth-child(3) , .signup input:nth-child(5), .signup input:nth-child(7){
+        width: 25%;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .signup input:nth-child(9), .signup input:nth-child(11){
+        width: 25%;
+        padding-top: 10px;
+    }
+    .signup a{
+        text-decoration: none;
+        font-size: 12px;
+    }
+    select{
+        height: 30px;
+        margin-right: 2px;
+        border: 1px solid red;
+        margin-bottom: 10px;
+    }
+    .signup p{
+        margin-left: 970px;
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        background-color: #1c6f05;
+        margin-bottom: 20px;
+        color: #fff;
+        margin-top: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-left: 970px;
+        border: #1c6f05;
+    }
+

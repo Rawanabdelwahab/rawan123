@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <children>
+      <CheckBox mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="PULLMAN FOR EYE 2022  Price: 19,000 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_c38e4b2d64b3ccbcb56cedc5fa0d6ea2.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="281.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="Pullman Bulldozer 2022  price: 25,250 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/thumbnail-up_3a4ec1774874db9183dab1e7be01082a.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="174.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="Pullman Eagle 2022  Price: 20,950 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/thumbnail-up_c0d0dceb609d9aec6918673a6b0a37c1.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="87.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="Pullman 4S 2022  Price: 19,000 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/thumbnail-up_4a6469dcb65b02e89f29adb51f60a0f6.png" />
+               </image></ImageView>
+         </graphic>
+      </CheckBox>
+      <Button layoutX="472.0" layoutY="415.0" mnemonicParsing="false" text="reservation" />
+   </children>
+</AnchorPane>

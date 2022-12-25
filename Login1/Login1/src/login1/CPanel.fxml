@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="438.0" prefWidth="629.0" style="-fx-background-color: blue;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="login1.CPanelController">
+   <children>
+      <Label layoutX="133.0" layoutY="173.0" prefHeight="58.0" prefWidth="382.0" text="Welcome.Cpanel" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="51.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

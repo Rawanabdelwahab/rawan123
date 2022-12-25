@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #73d1fa;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login1.FXMLDocumentController">
+   <children>
+      <HBox layoutX="20.0" layoutY="14.0" prefHeight="100.0" prefWidth="560.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#LoginpaneShow" prefWidth="220.0" style="-fx-background-color: #132be3;" text="Login" textFill="#78ecea">
+               <font>
+                  <Font name="Times New Roman Bold" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="29.0" right="15.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#SignuppaneShow" prefWidth="220.0" style="-fx-background-color: #5660ac;" text="SignUp" textFill="#78ecea">
+               <font>
+                  <Font name="Times New Roman Bold" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="29.0" right="15.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="pane_login" layoutX="38.0" layoutY="163.0" prefHeight="318.0" prefWidth="600.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <RadioButton fx:id="radioc" layoutX="223.0" layoutY="16.0" mnemonicParsing="false" text="customer" />
+            <RadioButton fx:id="radioa" layoutX="6.0" layoutY="16.0" mnemonicParsing="false" text="admin" />
+            <RadioButton fx:id="radioo" layoutX="111.0" layoutY="16.0" mnemonicParsing="false" text="owner" />
+            <TextField fx:id="txt_username" layoutX="35.0" layoutY="58.0" prefHeight="48.0" prefWidth="545.0" promptText="Enter Your UserName">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txt_password" layoutX="34.0" layoutY="123.0" prefHeight="48.0" prefWidth="546.0" promptText="Enter Your Password">
+               <font>
+                  <Font name="Times New Roman Bold" size="21.0" />
+               </font>
+            </PasswordField>
+            <ComboBox fx:id="type" layoutX="371.0" layoutY="6.0" prefHeight="38.0" prefWidth="210.0" promptText="Choose Type" />
+            <Button fx:id="btn_login" layoutX="72.0" layoutY="212.0" mnemonicParsing="false" onAction="#Login" prefHeight="55.0" prefWidth="478.0" style="-fx-background-color: #132be3;" text="Login" textFill="#a5faed">
+               <font>
+                  <Font name="Times New Roman" size="30.0" />
+               </font>
+            </Button>
+            <AnchorPane focusTraversable="true" layoutX="42.0" layoutY="201.0" prefHeight="30.0" prefWidth="518.0" visible="false">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="90.0" text="kind" />
+                  <RadioButton fx:id="own1" layoutX="90.0" layoutY="2.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" text="owner">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ch1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="cust1" layoutX="201.0" mnemonicParsing="false" text="customer" toggleGroup="$ch1" />
+                  <RadioButton fx:id="adm1" layoutX="360.0" mnemonicParsing="false" text="admin" toggleGroup="$ch1" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane_signup" layoutY="81.0" prefHeight="310.0" prefWidth="600.0" visible="false" AnchorPane.bottomAnchor="8.600000000000023" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <TextField fx:id="txt_username_up" layoutX="357.0" layoutY="47.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter UserName" />
+            <TextField fx:id="txt_password_up" layoutX="357.0" layoutY="86.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Password" />
+            <TextField fx:id="email_up" layoutX="357.0" layoutY="164.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Your Email" />
+            <ComboBox fx:id="type_up" layoutX="357.0" layoutY="7.0" prefHeight="30.0" prefWidth="200.0" promptText="Choose Type" />
+            <Button layoutX="41.0" layoutY="236.0" mnemonicParsing="false" onAction="#add_users" prefHeight="55.0" prefWidth="517.0" style="-fx-background-color: #132be3;" text="SignUp" textFill="#7bfafc">
+               <font>
+                  <Font name="Times New Roman Bold" size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="199.0" fitWidth="302.0" layoutX="45.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dbdf41150350767.Y3JvcCwxNTYzLDEyMjIsMCwxNzA.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txt_phone_up" layoutX="357.0" layoutY="126.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Your Phone" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+   <children>
+      <CheckBox mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="DAYUN 4A 2020  Price: 14,500  EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_fccd3ca776fefcf20633bdfde332f552.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="281.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="DAYUN DAYUN 4 EXPRESS 2021  Price: 16,000 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_766abaaa65d778e5cd8f33335d26d293.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="174.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="DAYUN 4A 2020  Price: 14,500 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_fccd3ca776fefcf20633bdfde332f552%20(1).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <CheckBox layoutY="87.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="498.0" text="DAYUN DAYUN 2 2021  Price: 13,200 EGP">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/big-up_4a1bc404fab62130df33f165a4d6b992.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </CheckBox>
+      <Button layoutX="472.0" layoutY="415.0" mnemonicParsing="false" text="reservation" />
+   </children>
+</AnchorPane>

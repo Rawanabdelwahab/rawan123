@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="614.0" style="-fx-background-color: gray;" styleClass="mainFxmlClass" stylesheets="@car.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.control">
+    <children>
+        <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="527.0" prefWidth="614.0" spacing="10.0" style="-fx-background-color: white;" stylesheets="@car.css">
+            <children>
+                <ImageView fitHeight="127.0" fitWidth="168.0">
+                    <image>
+                        <Image url="@../photo/dbdf41150350767.Y3JvcCwxNTYzLDEyMjIsMCwxNzA.jpg" />
+                    </image>
+                </ImageView>
+                <Label alignment="CENTER" prefHeight="32.0" prefWidth="122.0" styleClass="title" text="Login Form" />
+                <Label prefHeight="22.0" prefWidth="337.0" text="you can login to your account by your username and password" />
+                <VBox prefHeight="186.0" prefWidth="438.0" spacing="10.0" stylesheets="@car.css">
+                    <children>
+                        <TextField fx:id="txturname" promptText="Username" styleClass="field" />
+                  <PasswordField fx:id="txtpass" promptText="Password" />
+                        <AnchorPane prefHeight="22.0" prefWidth="431.0">
+                            <children>
+                                <Label prefHeight="18.0" prefWidth="90.0" text="kind" />
+                                <RadioButton layoutX="90.0" layoutY="2.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" text="owner">
+                                    <toggleGroup>
+                                        <ToggleGroup fx:id="ch" />
+                                    </toggleGroup>
+                                </RadioButton>
+                                <RadioButton layoutX="201.0" mnemonicParsing="false" text="customer" toggleGroup="$ch">
+                           <font>
+                              <Font name="Arial Narrow" size="12.0" />
+                           </font></RadioButton>
+                                <RadioButton layoutX="360.0" mnemonicParsing="false" text="admin" />
+                            </children>
+                        </AnchorPane>
+                        <CheckBox mnemonicParsing="false" text="Remember me">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </CheckBox>
+                        <Button fx:id="btnok" mnemonicParsing="false" onAction="#login" prefHeight="43.0" prefWidth="438.0" style="-fx-background-color: #0066ff;" styleClass="btn" stylesheets="@car.css" text="Login" textFill="#332f2f">
+                            <font>
+                                <Font name="Times New Roman" size="24.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                    </VBox.margin>
+                </VBox>
+                <Label styleClass="footer text" text="2022-2023" />
+            </children>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="30.0" top="30.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>
